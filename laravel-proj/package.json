@@ -6,7 +6,8 @@
         "dev:old": "vite",
         "build": "vite build",
         "update-vendor": "composer update",
-        "sail": "./vendor/bin/sail"
+        "sail": "./vendor/bin/sail",
+        "artisan": "npm run sail -- artisan"
     },
     "devDependencies": {
         "axios": "^1.1.2",
